@@ -358,3 +358,100 @@ vector<int> CircularInt::operator/(int other) {
 
 	return vec;
 }
+friend int operator>=(const CircularInt&c, int other) {
+
+	return other;
+}
+friend int operator>=(int other, const CircularInt&c) {
+
+	return other;
+}
+friend int operator>(const CircularInt&c,int other) {
+
+	return other;
+}
+friend int operator>(int other, const CircularInt&c) {
+
+	return other;
+}
+friend int operator<=(const CircularInt&c, int other) {
+
+	return other;
+}
+friend int operator<=(int other, const CircularInt&c) {
+
+	return other;
+}
+friend int operator<(const CircularInt&c, int other) {
+
+	return other;
+}
+friend int operator<(int other, const CircularInt&c) {
+
+	return other;
+}
+friend int operator==(const CircularInt&c, int other) {
+
+	return other;
+}
+friend int operator==(int other, const CircularInt&c) {
+
+	return other;
+}
+friend int operator!=(const CircularInt&c, int other) {
+
+	return other;
+}
+friend int operator!=(int other, const CircularInt&c) {
+
+	return other;
+}
+friend CircularInt operator -(const CirculatInt&c) {
+	return c;
+}
+friend CircularInt operator -=(const CircularInt&c,int other) {
+	return c;
+}
+friend CircularInt operator-=(int other, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator-=(const CircularInt&b, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator*(const CircularInt&b, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator*=(const CircularInt&c, int other) {
+
+	return c;
+}
+friend CircularInt operator*=(int other, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator*=(const CircularInt&b, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator+(const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator+=(const CircularInt&c,const int other) {
+
+	return c;
+}
+friend CircularInt operator+=(const int other, const CircularInt&c) {
+
+	return c;
+}
+friend CircularInt operator+=(const CircularInt&b, const CircularInt&c) {
+
+	return c;
+}
+
+
+
