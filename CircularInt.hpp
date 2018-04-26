@@ -89,6 +89,30 @@ public:
 	CircularInt& operator+=(const CircularInt& other);
 
 	vector<int> operator / (int other);
+	friend int operator>=(const CircularInt&c, int other);
+	friend int operator>=(int other, const CircularInt&c);
+	friend int operator>(const CircularInt&c, int other);
+	friend int operator>(int other, const CircularInt&c);
+	friend int operator<=(const CircularInt&c, int other);
+	friend int operator<=(int other, const CircularInt&c);
+	friend int operator<(const CircularInt&c, int other);
+	friend int operator<(int other, const CircularInt&c);
+	friend int operator==(const CircularInt&c, int other);
+	friend int operator==(int other, const CircularInt&c);
+	friend int operator!=(const CircularInt&c, int other);
+	friend int operator!=(int other, const CircularInt&c);
+	//friend CircularInt operator -(const CirculatInt&c);
+	friend CircularInt operator -=(const CircularInt&c, int other);
+	friend CircularInt operator-=(int other, const CircularInt&c);
+	friend CircularInt operator-=(const CircularInt&b, const CircularInt&c);
+	friend CircularInt operator*(const CircularInt&b, const CircularInt&c);
+	friend CircularInt operator*=(const CircularInt&c, int other);
+	friend CircularInt operator*=(int other, const CircularInt&c);
+	friend CircularInt operator*=(const CircularInt&b, const CircularInt&c);
+	friend CircularInt operator+(const CircularInt&c);
+	friend CircularInt operator+=(const CircularInt&c, const int other);
+	friend CircularInt operator+=(const int other, const CircularInt&c);
+	friend CircularInt operator+=(const CircularInt&b, const CircularInt&c);
 
 
 
